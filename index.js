@@ -1,5 +1,6 @@
 var names = [ "lion". "zebra", "giraffe", "hippo"];
 
-var create = function()
-{
-}
+names.forEach(d)
+  {
+    document.write(d);
+  }
