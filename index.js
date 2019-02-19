@@ -1,6 +1,9 @@
 var names = [ "lion". "zebra", "giraffe", "hippo"];
 
-names.forEach(d)
+var list = function(d)
+{
+  names.forEach(d)
   {
     document.write(d);
   }
+}
