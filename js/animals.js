@@ -7,7 +7,7 @@ var createList = function()
  
  var p= document.createElement("1."+names[0]);
  
- var q=document.createElement("2."+names[1]);
+ var p=document.createElement("2."+names[1]);
  
  /*var r=document.createElement("r");
  p.innerText="3."+names[2];
