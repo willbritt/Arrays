@@ -8,13 +8,13 @@ var createList = function()
  var p= createElement("p");
  p.innerText="1."+names[0];
  
- var p=createElement("p");
+ var q=createElement("q");
  p.innerText="2."+names[1];
  
- var p=CreateElement("p");
+ var r=CreateElement("r");
  p.innerText="3."+names[2];
  
- var p=CreateElement("p");
+ var s=CreateElement("s");
  p.innerText="4."+names[3];
  
  
