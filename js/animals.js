@@ -1,9 +1,8 @@
-var names = [ "lion". "zebra", "giraffe", "hippo"];
+
 
 var list = function(d)
-{
-  names.forEach(d)
-  {
-    document.write(d);
+{var names = [ "lion". "zebra", "giraffe", "hippo"];
+ document.getElementById("animals").innerHTML=names.toString();}
+ 
   }
 }
