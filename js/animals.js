@@ -2,7 +2,7 @@
 
 var createList = function()
 {
- var names = [ "lion", "zebra", "giraffe", "hippo"];
+ var names = [ "Lion", "Zebra", "Giraffe", "Hippo"];
  
  document.getElementById("animal1").innerHTML = "1. "+names[0];
  document.getElementById("animal2").innerHTML = "2. "+names[1];
