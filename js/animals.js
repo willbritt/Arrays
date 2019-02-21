@@ -5,6 +5,8 @@ var createList = function()
  var names = [ "lion", "zebra", "giraffe", "hippo"];
  document.getElementById("animals").innerHTML=names.toString();
  
+ document.getElementById("animals").innerHTML = names[0];
+ 
  var p= document.createElement("1."+names[0]);
  
  var p=document.createElement("2."+names[1]);
