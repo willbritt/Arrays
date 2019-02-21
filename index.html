@@ -8,8 +8,19 @@
     <p id="animals"></p>
     <script>
       var names = [ "lion", "zebra", "giraffe", "hippo"];
-      document.getElementById("animals").innerHTML=names.toString();
+      var zero= names[0]
+      var one=names[1]
+      var two=names[2]
+      var three=names[3]
+      document.getElementById("animals").innerHTML=names.join(", ");
     </script>
+    
+    <ol>
+      <li>zero</li>
+      <li>one</li>
+      <li>two</li>
+      <li>three</li>
+    </ol>
     
   </body>
 </html>
