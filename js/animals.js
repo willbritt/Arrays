@@ -3,13 +3,14 @@
 var createList = function()
 {
  var names = [ "lion", "zebra", "giraffe", "hippo"];
- document.getElementById("animals").innerHTML=names.toString();
  
- document.getElementById("animals").innerHTML = names[0];
+ document.getElementById("animal1").innerHTML = names[0];
+ document.getElementById("animal2").innerHTML = names[1];
+ document.getElementById("animal3").innerHTML = names[2];
+ document.getElementById("animal4").innerHTML = names[3];
  
- var p= document.createElement("1."+names[0]);
  
- var p=document.createElement("2."+names[1]);
+ 
  
  /*var r=document.createElement("r");
  p.innerText="3."+names[2];
